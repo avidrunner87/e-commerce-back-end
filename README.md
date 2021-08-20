@@ -14,47 +14,36 @@
    - [Questions](#questions)
 
 ## Description
-A command-line application to manage a company's employee database.
+The back end suite of services to support businesses of all sizes.
 
 ## Usage
-You can access the app here: [https://github.com/avidrunner87/employee-tracker](https://github.com/avidrunner87/employee-tracker).
+You can access the app here: [https://github.com/avidrunner87/e-commerce-back-end](https://github.com/avidrunner87/e-commerce-back-end).
 
 ## User Story
->**AS A(N)** business owner<br>
-I **WANT** to be able to view and manage the departments, roles, and employees in my company<br>
-**SO THAT** I can organize and plan my business
+>**AS A(N)** manager at an internet retail company<br>
+I **WANT** a back end for my e-commerce website that uses the latest technologies<br>
+**SO THAT** my company can compete with other e-commerce companies
 
 
 ## Acceptance Criteria
-**GIVEN** a command-line application that accepts user input
+**GIVEN** a functional Express.js API
 
->**WHEN** I start the application<br>
-**THEN** I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
+>**WHEN** I add my database name, MySQL username, and MySQL password to an environment variable file<br>
+**THEN** I am able to connect to a database using Sequelize
 
->**WHEN** I choose to view all departments<br>
-**THEN** I am presented with a formatted table showing department names and department ids
+>**WHEN** I enter schema and seed commands<br>
+**THEN** a development database is created and is seeded with test data
 
->**WHEN** I choose to view all roles<br>
-**THEN** I am presented with the job title, role id, the department that role belongs to, and the salary for that role
+>**WHEN** I enter the command to invoke the application<br>
+**THEN** my server is started and the Sequelize models are synced to the MySQL database
 
->**WHEN** I choose to view all employees<br>
-**THEN** I am presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to
+>**WHEN** I open API GET routes in Insomnia Core for categories, products, or tags<br>
+**THEN** the data for each of these routes is displayed in a formatted JSON
 
->**WHEN** I choose to add a department<br>
-**THEN** I am prompted to enter the name of the department and that department is added to the database
-
->**WHEN** I choose to add a role<br>
-**THEN** I am prompted to enter the name, salary, and department for the role and that role is added to the database
-
->**WHEN** I choose to add an employee<br>
-**THEN** I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
-
->**WHEN** I choose to update an employee role<br>
-**THEN** I am prompted to select an employee to update and their new role and this information is updated in the database 
-
-
+>**WHEN** I test API POST, PUT, and DELETE routes in Insomnia Core<br>
+**THEN** I am able to successfully create, update, and delete data in my database
 ## Licenses
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/avidrunner87/employee-tracker/blob/main/LICENSE.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/avidrunner87/e-commerce-back-end/blob/main/LICENSE.md)
 
 ## Technology
 ![JavaScript](https://img.shields.io/static/v1?label=javascript&message=99.7%&color=yellow)
@@ -66,10 +55,12 @@ The following picture shows the website appearance and capabilities:
 
 <img src="./assets/images/screenshots/mockup.gif" width="600"><br>
 <img src="./assets/images/screenshots/screenshot01.png" width="300">
+<img src="./assets/images/screenshots/screenshot02.png" width="300"><br>
+<img src="./assets/images/screenshots/screenshot03.png" width="300">
 
 We also have a video that walks you through the entire application:
 
-[Access Video](https://github.com/avidrunner87/employee-tracker/blob/main/assets/images/screenshots/walkthrough.mp4)
+[Access Video](https://github.com/avidrunner87/e-commerce-back-end/blob/main/assets/images/screenshots/walkthrough.mp4)
 ## Support
 ### Installation
 To fork this code to further improve the website, please follow these directions:
