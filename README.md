@@ -46,8 +46,8 @@ I **WANT** a back end for my e-commerce website that uses the latest technologie
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/avidrunner87/e-commerce-back-end/blob/main/LICENSE.md)
 
 ## Technology
-![JavaScript](https://img.shields.io/static/v1?label=javascript&message=99.7%&color=yellow)
-![Shell](https://img.shields.io/static/v1?label=shell&message=0.3%&color=green)
+![JavaScript](https://img.shields.io/static/v1?label=javascript&message=99.6%&color=yellow)
+![Shell](https://img.shields.io/static/v1?label=shell&message=0.4%&color=green)
 
 
 ## Mock-up
@@ -86,6 +86,12 @@ To fork this code to further improve the website, please follow these directions
 
       ```
       cp .env.example .env
+      ```
+
+6. Seed the database with data.
+
+      ```
+      npm run seed
       ```
 
 You can run the application using the following command:
